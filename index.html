@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdi | Software Engineer & IT Specialist</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .about img {
+      width: 100%;
+      max-width: 280px;
+      border-radius: 50%;
+      border: 6px solid #2c5364;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      font-size: 2rem;
+      color: #2c5364;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .skill-box {
+      background: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+      transition: transform 0.3s;
+    }
+
+    .skill-box:hover {
+      transform: translateY(-6px);
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .project {
+      background: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    footer {
+      background: #203a43;
+      color: #fff;
+      text-align: center;
+      padding: 25px 15px;
+    }
+
+    footer a {
+      color: #00e0ff;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        padding: 40px 15px;
+      }
+
+      header h1 {
+        font-size: 1.8rem;
+      }
+
+      header p {
+        font-size: 1rem;
+      }
+
+      section {
+        padding: 40px 15px;
+      }
+
+      .about {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .about img {
+        margin: 0 auto 20px;
+        max-width: 220px;
+      }
+
+      h2 {
+        font-size: 1.6rem;
+      }
+
+      .skills,
+      .projects {
+        grid-template-columns: 1fr;
+      }
+
+      footer {
+        font-size: 0.9rem;
+      }
+    }
+    
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Abdiweli Adow</h1>
+  <p>Software Engineer & IT Specialist</p>
+</header>
+
+<section>
+  <div class="about">
+<img src="abdi.jpg.jpeg" alt="Abdi Profile Picture">
+
+    <div>
+      <h2>About Me</h2>
+      <p>
+        I am <strong>Abdi</strong>, a passionate <strong>Software Engineer and IT Specialist</strong> with strong skills in designing,
+        developing, and maintaining modern software solutions. I enjoy solving real-world problems using
+        technology and building systems that are efficient, secure, and user-friendly.
+      </p>
+      <p>
+        I have experience in web development, system administration, IT support, and digital solutions
+        for businesses and individuals.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>My Skills</h2>
+  <div class="skills">
+    <div class="skill-box">HTML5, CSS3 & Responsive Design</div>
+    <div class="skill-box">JavaScript (Frontend Logic & DOM)</div>
+    <div class="skill-box">PHP Backend Development</div>
+    <div class="skill-box">MySQL Database Design & Queries</div>
+    <div class="skill-box">Software Development & Debugging</div>
+    <div class="skill-box">Web Application Development</div>
+    <div class="skill-box">IT Support & Troubleshooting</div>
+    <div class="skill-box">System Administration</div>
+    <div class="skill-box">Networking & Hardware Support</div>
+    <div class="skill-box">Website Deployment & Hosting</div>
+    <div class="skill-box">Basic Cybersecurity Practices</div>
+    <div class="skill-box">Technical Documentation</div>
+  </div>
+</section>
+
+<section>
+  <h2>Projects & Experience</h2>
+  <div class="projects">
+    <div class="project">
+      <h3>Personal & Business Websites</h3>
+      <p>Designed and developed clean, responsive websites for individuals and small businesses.</p>
+    </div>
+
+    <div class="project">
+      <h3>Management Systems</h3>
+      <p>Built systems for managing records, orders, users, and reports using PHP and MySQL.</p>
+    </div>
+
+    <div class="project">
+      <h3>Portfolio & Profile Systems</h3>
+      <p>Created personal portfolio websites to showcase skills, projects, and experience.</p>
+    </div>
+
+    <div class="project">
+      <h3>IT Support Projects</h3>
+      <p>Provided system setup, troubleshooting, networking support, and maintenance services.</p>
+    </div>
+
+    <div class="project">
+      <h3>Database Projects</h3>
+      <p>Designed and managed databases with secure data handling and optimized queries.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Abdi | Software Engineer & IT Specialist</p>
+  <p>
+    <a href="#">LinkedIn</a> | 
+    <a href="#">GitHub</a> | 
+    <a href="#">Email</a>
+  </p>
+</footer>
+
+</body>
+</html>
